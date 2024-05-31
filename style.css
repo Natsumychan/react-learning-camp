@@ -1,0 +1,15 @@
+h1, h2, p, div{
+ background-color: rgb(202, 82, 82);
+ font-size: 2rem;
+}
+
+.title{
+ text-align: center;
+ background-color: #128d2f;
+}
+
+#mainTitle{
+ font-family: 'Courier New', Courier, monospace;
+ color: whitesmoke;
+}
+

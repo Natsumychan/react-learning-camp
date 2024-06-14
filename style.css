@@ -1,15 +1,47 @@
-h1, h2, p, div{
- background-color: rgb(202, 82, 82);
- font-size: 2rem;
+h1,
+h2,
+p,
+div {
+	background-color: rgb(202, 82, 82);
+	font-size: 2rem;
 }
 
-.title{
- text-align: center;
- background-color: #128d2f;
+.title {
+	text-align: center;
+	background-color: #128d2f;
 }
 
-#mainTitle{
- font-family: 'Courier New', Courier, monospace;
- color: whitesmoke;
+#mainTitle {
+	font-family: "Courier New", Courier, monospace;
+	color: whitesmoke;
 }
 
+.title-cards-container {
+	text-align: center;
+	background-color: blueviolet;
+	color: whitesmoke;
+}
+
+.cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	box-sizing: border-box;
+	width: 90%;
+	justify-content: center;
+}
+
+.card-evidence {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	border-radius: 8%;
+	overflow: hidden;
+	background-color: cornflowerblue;
+}
+
+.card-evidence h3 {
+	text-align: center;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

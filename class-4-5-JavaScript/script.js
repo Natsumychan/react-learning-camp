@@ -1,3 +1,13 @@
+//module from class-6-ES6 folder
+import { firstName, age,firstActivity, secondActivity, userInfo, userName, userAge, getinfo } from "../class-6-ES6/script.js"
+firstName
+age
+firstActivity
+secondActivity
+userInfo
+userName
+userAge
+getinfo
 //Arrays fos testing
 const exampleArray=[1,-4,7,12,-20,5,0,20]
 const negativeArray=[-1,-7,-8,-99,-25,-30]
@@ -61,13 +71,14 @@ const sqrRoot= (a)=>{
  } finally{
    console.log('Operación finalizada')
  }
-
 }
 
 const exponentiation= (a,b)=>{
  return (`El total de ${a} elevado a la ${b} es de: ${a ** b}`)
 }
 
+
+//Testing in browser
 //console.log(sum(8,9))
 //console.log(sub(-20,2))
 //console.log(mult(8,5))
@@ -75,9 +86,8 @@ const exponentiation= (a,b)=>{
 //console.log(div(5,0))
 //console.log(mod(6,3))
 //console.log(sqrRoot(7))
-console.log(sqrRoot(-7))
+//console.log(sqrRoot(-7))
 //console.log(exponentiation(3,4))
-
 //console.log(positiveSum(exampleArray))
 //console.log(positiveSum(negativeArray))
 //console.log(goals(43, 10, 5))

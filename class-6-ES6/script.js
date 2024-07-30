@@ -1,11 +1,11 @@
 //First activity
 const firstName= 'Diana'
-const age= 35
+let age= 35
 
-const firstActivity=console.log(firstName, age)
+console.log(firstName, age)
 
 //Second activity
-const secondActivity=console.log(`Hola, me llamo ${firstName} y tengo ${age} años.`)
+console.log(`Hola, me llamo ${firstName} y tengo ${age} años.`)
 
 
 //Third activity
